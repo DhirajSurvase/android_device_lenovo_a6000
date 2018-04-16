@@ -30,3 +30,7 @@ PRODUCT_ENFORCE_RRO_TARGETS := \
 include $(LOCAL_PATH)/product/*.mk
 
 $(call inherit-product, vendor/lenovo/a6000/a6000-vendor.mk)
+
+#TARGET_CRYPTFS_HW_PATH := device/qcom/common/cryptfs_hw
+
+include device/qcom/common/common.mk
