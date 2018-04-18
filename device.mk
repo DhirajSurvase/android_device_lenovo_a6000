@@ -26,3 +26,5 @@ DEVICE_PACKAGE_OVERLAYS += \
 include $(LOCAL_PATH)/product/*.mk
 
 $(call inherit-product, vendor/lenovo/a6000/a6000-vendor.mk)
+
+include device/qcom/common/common.mk
