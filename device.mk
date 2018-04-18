@@ -28,3 +28,7 @@ include $(LOCAL_PATH)/product/*.mk
 $(call inherit-product, vendor/lenovo/a6000/a6000-vendor.mk)
 
 include device/qcom/common/common.mk
+
+# Enforced RRO targets
+PRODUCT_ENFORCE_RRO_TARGETS := \
+    framework-res
