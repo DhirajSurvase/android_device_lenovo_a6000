@@ -23,4 +23,4 @@ include device/lenovo/a6000/board/*.mk
 # inherit from proprietary files
 -include vendor/lenovo/a6000/BoardConfigVendor.mk
 
-TARGET_USES_AOSP := true
+#TARGET_USES_AOSP := true
